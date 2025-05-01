@@ -1,0 +1,39 @@
+body{
+    background-image: url('bg-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+h1, h2{
+    /* White text color for contrast */
+    padding: 10px;
+    margin: 10px; /* Center align */
+    text-align: center;
+
+}
+h3, h4 {
+    background-color: rgba(206, 206, 206, 0.6); /* Semi-transparent black background */
+    color: #ffffff; /* White text color for contrast */
+    padding: 10px;
+    border-radius: 5px;
+   align-self: center;
+   width: fit-content;
+    
+    margin: 10px auto; /* Center align */
+    text-align: center;
+}
+    padding: 20px;
+    color: #000000;
+    margin: 0;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5););
+}

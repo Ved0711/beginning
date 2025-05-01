@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY BOOKMARKS</title>
+    <title>WELCOME</title>
     <link rel="stylesheet" href="style.css">
- 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 10px;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 5px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            background-color: #444;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>MY BOOKMARKS</h1>
-    <p><h3><a href="https://google.com">GOOGLE</a></h23></p>
-    <p><h3><a href="https://youtube.com">YOUTUBE</a></h3></p>
-    <p><h3><a href="https://github.com">GITHUB</a></h3></p>
-    <p><h3><a href="https://codewithharry.com">CODE WITH HARRY</a></h3></p>
-    <p><h2>SOCIAL MEDIA</h2></p>
-    <p><h4><a href="https://instagram.com">INSTAGRAM</a></h4></p>
-    <p><h4><a href="https://facebook.com">FACEBOOK</a></h4></p> 
-    <p><h4><a href="https://x.com">X</a></h4></p>
+    <nav>
+        <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w">SIGMA WEB DEV COURSE</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLEiEAq2VkUUJfeP9bgWAEs-NbGJyYXc-v">SOFTWARE DEVELOPMENT COURSE</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL">C++ TUTORIALS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>WELCOME</h1>
+    </header>
+    <section>
+        <p>THIS IS VEDANT'S WEBSITE.</p>
+    </section>
+    <section>   
+        <p>KAAYDE ME RAHIYE CHOTE.</p>
+    </section>
+    <video controls autoplay muted loop>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <script src="script.js"></script>
 </body>
 </html>
